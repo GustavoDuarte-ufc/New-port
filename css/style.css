@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: repeating-linear-gradient(to bottom right, #004b57, #1E5F74);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0 3.7rem;
+}
+
+.cab-nome{
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.cab-nav-lista{
+    cursor: pointer;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+.nav-list-element{
+    display: flex;
+    margin: 0 1rem;
+}
+
+
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    margin: 2rem 6rem;
+    gap: 1.4rem;
+}
+
+.corpo-titulo{
+    font-size: 4rem;
+    color: #5799cf;
+}
+
+.corpo-imagem{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
+    width: 26rem;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0.6rem 0.5rem 1rem rgb(0, 0, 0, 0.3);
+}
+
+.img-cop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+p{
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+}
+
+.art-linguagens{
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.lin-lista{
+    background-color: #193a49;
+    padding: 2rem 10rem;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0.6rem 0.5rem 1rem rgb(0, 0, 0, 0.2);
+}
+
+.lis-prog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-img{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0.8rem;
+}
+
+.ling-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ling-about-fund{
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    color: #004b57;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2.5rem;
+}
+
+.lista-proj{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /*background-color: #2e6d8a;*/
+    padding: 2rem 0;
+    justify-content: space-evenly;
+}
+
+.proj-p{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.projetos-caixa{
+    width: 15rem;
+    height: 15rem;
+    background-color: #3d93bb;
+    border: none;
+    border-radius: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 1rem 0.5rem 1rem #193a49;
+}
+
+.img-projetos{
+    width: 7rem;
+    height: 7rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.mapa{
+    padding: 3rem;
+}
+
+.mapa h1{
+    text-align: center;
+}
+
+.map-temp{
+    /*background-color: #2e6d8a;*/
+    margin: 1rem 5rem;
+}
+
+.temp-art{
+    display: flex;
+    align-items: center;
+}
+
+
+.temp-art hr{
+    position: absolute;
+    left: 6.5rem;
+    width: 4rem;
+    transform: rotate(90deg);
+    background-color: white;
+    border: 1px solid white;
+}
+
+.temp-art p{
+    margin: 1rem;
+}
+
+#contatos{
+    background-color: #193a49;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 5rem;
+}
+
+.contato-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes-icons{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.img-perfil{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: #1a4053;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: center;
+}

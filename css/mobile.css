@@ -1,0 +1,32 @@
+@media (max-width: 750px){
+    .cabecalho{
+        flex-direction: column;
+        position: inherit;
+        margin-top: 1rem;
+    }
+
+    .cab-navegacao{
+        display: none;
+    }
+
+    .corpo{
+        flex-direction: column;
+        margin: 1rem 1rem;
+    }
+
+    .ling-about-fund{
+        padding: 2rem;
+    }
+
+    #contatos{
+        flex-direction: column;
+    }
+
+    .contato-redes{
+        margin: 1rem;
+    }
+
+    .map-temp{
+        margin: 1rem 0.4rem;
+    }
+}
